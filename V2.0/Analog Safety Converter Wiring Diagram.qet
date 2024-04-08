@@ -1,0 +1,1020 @@
+<project title="Analog Safety Converter Wiring Diagram" version="0.90">
+    <properties>
+        <property name="savedfilename" show="1">Analog Safety Converter Wiring Diagram</property>
+        <property name="saveddate" show="1">12/3/2023</property>
+        <property name="saveddate-eu" show="1">03-12-2023</property>
+        <property name="saveddate-us" show="1">2023-12-03</property>
+        <property name="savedtime" show="1">14:02</property>
+        <property name="savedfilepath" show="1">C:/Users/JLD88/OneDrive/Desktop/Analog Safety Converter Wiring Diagram.qet</property>
+    </properties>
+    <newdiagrams>
+        <border displayrows="true" colsize="60" cols="17" rows="8" rowsize="80" displaycols="true"/>
+        <inset title="" locmach="" version="" author="" plant="" indexrev="" folio="%id/%total" filename="" date="null" auto_page_num="" displayAt="bottom"/>
+        <conductors displaytext="1" formula="" function="" num="_" numsize="7" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" cable="" vertirotatetext="270" color2="#000000" bus="" tension_protocol="" horizontal-alignment="AlignBottom" condsize="1" text_color="#000000" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref type="commutator" showpowerctc="true" offset="0" displayhas="cross" slave_label="(%f-%l%c)" snapto="label" master_label="%f-%l%c" powerprefix="" delayprefix="" switchprefix="" xrefpos=""/>
+            <xref type="coil" showpowerctc="true" offset="0" displayhas="cross" slave_label="(%f-%l%c)" snapto="label" master_label="%f-%l%c" powerprefix="" delayprefix="" switchprefix="" xrefpos=""/>
+            <xref type="protection" showpowerctc="true" offset="0" displayhas="cross" slave_label="(%f-%l%c)" snapto="label" master_label="%f-%l%c" powerprefix="" delayprefix="" switchprefix="" xrefpos=""/>
+        </xrefs>
+        <conductors_autonums freeze_new_conductors="false" current_autonum=""/>
+        <folio_autonums/>
+        <element_autonums current_autonum="" freeze_new_elements="false"/>
+    </newdiagrams>
+    <diagram version="0.90+c7891bc4cb0a58100c957a06d79751d3" plant="" locmach="" freezeNewConductor="false" auto_page_num="Create an auto folio numbering" filename="Analog Safety Converter" cols="17" title="Analog Safety Converter 2.0 Wiring Diagram" freezeNewElement="false" indexrev="" date="null" order="1" rowsize="80" folio="%id/%total" rows="8" displaycols="true" colsize="60" displayAt="bottom" height="660" displayrows="true" author="Day Controls">
+        <defaultconductor displaytext="1" formula="" function="" num="_" numsize="7" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" cable="" vertirotatetext="270" color2="#000000" bus="" tension_protocol="" horizontal-alignment="AlignBottom" condsize="1" text_color="#000000" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="2"/>
+        <elements>
+            <element type="embed://import/analog_safety.elmt" uuid="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" x="300" orientation="0" y="380" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="116" orientation="0" y="-90" id="0"/>
+                    <terminal x="146" orientation="1" y="-50" id="1"/>
+                    <terminal x="-126" orientation="3" y="-30" id="2"/>
+                    <terminal x="146" orientation="1" y="-30" id="3"/>
+                    <terminal x="-126" orientation="3" y="-10" id="4"/>
+                    <terminal x="-80" orientation="2" y="76" id="5"/>
+                    <terminal x="-60" orientation="2" y="76" id="6"/>
+                    <terminal x="-30" orientation="2" y="76" id="7"/>
+                    <terminal x="-10" orientation="2" y="76" id="8"/>
+                    <terminal x="20" orientation="2" y="76" id="9"/>
+                    <terminal x="40" orientation="2" y="76" id="10"/>
+                    <terminal x="70" orientation="2" y="76" id="11"/>
+                    <terminal x="90" orientation="2" y="76" id="12"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="120" uuid="{e6efaeca-1149-41d9-9f33-38bfd23b55c1}" keep_visual_rotation="false" Halignment="AlignLeft" y="-40" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>COM</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-120" uuid="{c79038f1-e751-43bd-87e5-1d472f3f59b0}" keep_visual_rotation="false" Halignment="AlignLeft" y="-20" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>AO</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-70" uuid="{cdb681a4-1950-4173-87fc-2ebbceb55f51}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="10" uuid="{0c71d412-1eee-4636-b313-224de20596de}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S3</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="30" uuid="{4d703796-7e4e-4278-b557-4b7d966e8d90}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S3</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="60" uuid="{ad428265-2f78-439f-8db0-63fc93a5a0c6}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S4</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-90" uuid="{fc9825f6-b799-49de-a679-18cf9bcd14e9}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-20" uuid="{00b7aaf4-8c51-4bd9-9281-292c3180eb90}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-40" uuid="{8b1eb1b4-c541-42bb-acea-22ec2593fe3d}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-80" uuid="{1bc8f9b6-47e4-4ec2-991a-ae53ac37bc11}" keep_visual_rotation="false" Halignment="AlignLeft" y="-70" text_width="-1" font="Sans Serif,10,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>Analog Safety Converter 2.0</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="80" uuid="{a60ca412-988e-4146-971d-22a4b65c7683}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>S4</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-120" uuid="{099f36b4-95a2-4b77-94e6-36cae9147412}" keep_visual_rotation="false" Halignment="AlignLeft" y="-40" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>GND</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="110" uuid="{ea2ecaa4-aba1-489a-a576-db0415c1c9f2}" keep_visual_rotation="false" Halignment="AlignLeft" y="-60" text_width="-1" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>24VAC</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/hps.elmt" uuid="{2c25f86a-701e-4295-8c7d-326877b45b2b}" x="100" orientation="0" y="590" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="-26" orientation="3" y="0" id="13"/>
+                    <terminal x="26" orientation="1" y="0" id="14"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-15" uuid="{aebe3cb1-f498-451e-b6da-88d3e0ff2caa}" keep_visual_rotation="false" Halignment="AlignLeft" y="13" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>HPS</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/alc_control.elmt" uuid="{aa025ac7-c89a-41b3-b8cd-338932965a15}" x="730" orientation="0" y="180" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="136" orientation="1" y="-100" id="15"/>
+                    <terminal x="-76" orientation="3" y="-90" id="16"/>
+                    <terminal x="136" orientation="1" y="-80" id="17"/>
+                    <terminal x="-76" orientation="3" y="-60" id="18"/>
+                    <terminal x="144" orientation="3" y="-50" id="19"/>
+                    <terminal x="146" orientation="1" y="-40" id="20"/>
+                    <terminal x="-76" orientation="3" y="-30" id="21"/>
+                    <terminal x="144" orientation="3" y="-20" id="22"/>
+                    <terminal x="144" orientation="3" y="-20" id="23"/>
+                    <terminal x="146" orientation="1" y="-10" id="24"/>
+                    <terminal x="146" orientation="1" y="-10" id="25"/>
+                    <terminal x="-76" orientation="3" y="0" id="26"/>
+                    <terminal x="144" orientation="3" y="10" id="27"/>
+                    <terminal x="144" orientation="3" y="10" id="28"/>
+                    <terminal x="146" orientation="1" y="20" id="29"/>
+                    <terminal x="146" orientation="1" y="20" id="30"/>
+                    <terminal x="-76" orientation="3" y="30" id="31"/>
+                    <terminal x="144" orientation="3" y="40" id="32"/>
+                    <terminal x="144" orientation="3" y="40" id="33"/>
+                    <terminal x="146" orientation="1" y="50" id="34"/>
+                    <terminal x="146" orientation="1" y="50" id="35"/>
+                    <terminal x="-76" orientation="3" y="70" id="36"/>
+                    <terminal x="144" orientation="3" y="70" id="37"/>
+                    <terminal x="144" orientation="3" y="70" id="38"/>
+                    <terminal x="146" orientation="1" y="80" id="39"/>
+                    <terminal x="-10" orientation="2" y="116" id="40"/>
+                    <terminal x="0" orientation="2" y="116" id="41"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-14" uuid="{f6dccad9-218d-4531-9f00-461ae60a3403}" keep_visual_rotation="false" Halignment="AlignLeft" y="102" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>AO1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-86" uuid="{0b6f7f18-8a49-484a-b1eb-842c694e764c}" keep_visual_rotation="false" Halignment="AlignLeft" y="-58" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>IN-2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-86" uuid="{873a806f-ca9a-4996-9132-e31b926194bb}" keep_visual_rotation="false" Halignment="AlignLeft" y="-28" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>IN-3</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-86" uuid="{09fb8490-b758-4d06-977e-95f099bcf601}" keep_visual_rotation="false" Halignment="AlignLeft" y="-88" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>IN-1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-86" uuid="{55d9514c-7d0b-44c5-bc9b-32e0fe9c40e6}" keep_visual_rotation="false" Halignment="AlignLeft" y="2" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>IN-4</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-86" uuid="{2c759b52-eab6-4ca5-98d0-5842c0e83355}" keep_visual_rotation="false" Halignment="AlignLeft" y="32" text_width="-1" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>IN-5</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="270" x="82" uuid="{3f8e9be1-e4c4-42c6-84cd-de05bc81bdeb}" keep_visual_rotation="false" Halignment="AlignLeft" y="34" text_width="-1" font="Sans Serif,6,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>Digital Outputs</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-20" uuid="{86bcfc7a-bfd0-4d42-a156-1d1fd56ada84}" keep_visual_rotation="false" Halignment="AlignLeft" y="-10" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>ZN551</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/330_transformers_power_supplies/10_transformers/transformator_ekr_2.elmt" uuid="{bfdc0d63-6bd4-4d4a-b24b-cef2a012ea41}" x="1000" orientation="0" y="50" prefix="T" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="-10" orientation="0" y="-16" id="42"/>
+                    <terminal x="10" orientation="0" y="-16" id="43"/>
+                    <terminal x="-6" orientation="3" y="0" id="44"/>
+                    <terminal x="-10" orientation="2" y="16" id="45"/>
+                    <terminal x="10" orientation="2" y="16" id="46"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="12" uuid="{63fd0efb-34a3-4118-85cc-22b7971829a9}" keep_visual_rotation="true" Halignment="AlignLeft" y="-11.5" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="ElementInfo" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" uuid="{496cc4f8-9fa0-436f-bdca-473a25005d3c}" x="480" orientation="0" y="290" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="0" orientation="0" y="-7" id="47"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="quantity" show="1"></elementInformation>
+                    <elementInformation name="supplier" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="manufacturer" show="1"></elementInformation>
+                    <elementInformation name="location" show="1"></elementInformation>
+                    <elementInformation name="plant" show="1"></elementInformation>
+                    <elementInformation name="unity" show="1"></elementInformation>
+                    <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="description" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="designation" show="1"></elementInformation>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="10" uuid="{efc8530e-6f76-4e38-a035-1118dd53fdef}" keep_visual_rotation="true" Halignment="AlignLeft" y="-20" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" uuid="{236103de-9606-4b01-ab0f-4c1e7ea125e1}" x="1030" orientation="0" y="120" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="0" orientation="0" y="-7" id="48"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="quantity" show="1"></elementInformation>
+                    <elementInformation name="supplier" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                    <elementInformation name="manufacturer" show="1"></elementInformation>
+                    <elementInformation name="plant" show="1"></elementInformation>
+                    <elementInformation name="unity" show="1"></elementInformation>
+                    <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+                    <elementInformation name="description" show="1"></elementInformation>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="designation" show="1"></elementInformation>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="2" uuid="{efc8530e-6f76-4e38-a035-1118dd53fdef}" keep_visual_rotation="true" Halignment="AlignLeft" y="-22.5" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/condensate_switch.elmt" uuid="{dedb2655-d4a8-48e2-a443-5532e3f2727e}" x="590" orientation="0" y="600" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="-26" orientation="3" y="-13.75" id="49"/>
+                    <terminal x="26" orientation="1" y="-13.75" id="50"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-30" uuid="{16955996-5339-45a7-b511-f96d35afe8d8}" keep_visual_rotation="false" Halignment="AlignLeft" y="10" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>COND-SW</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/freeze_stat.elmt" uuid="{8628b09c-e4cd-40e5-814a-0aee5dadf96e}" x="430" orientation="0" y="590" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="-21" orientation="3" y="0" id="51"/>
+                    <terminal x="21" orientation="1" y="0" id="52"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-14" uuid="{22f67136-b717-4053-a96c-76589dad2953}" keep_visual_rotation="false" Halignment="AlignLeft" y="14" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>FRZ</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/lps.elmt" uuid="{773d40e4-d601-48b4-907c-f0b8b1c3ea7e}" x="260" orientation="0" y="590" prefix="" z="10" freezeLabel="false">
+                <terminals>
+                    <terminal x="-26" orientation="3" y="-0.25" id="53"/>
+                    <terminal x="26" orientation="1" y="-0.25" id="54"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text Valignment="AlignTop" rotation="0" x="-14" uuid="{26e1fde9-59ba-4699-8750-00a65d831dc3}" keep_visual_rotation="false" Halignment="AlignLeft" y="18" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                        <text>LPS</text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" color2="#000000" bus="" terminal2="48" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="46">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{aa025ac7-c89a-41b3-b8cd-338932965a15}" color2="#000000" bus="" terminal2="46" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{fceb9f71-2d76-4d94-9e16-a1fd9e595a61}">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{aa025ac7-c89a-41b3-b8cd-338932965a15}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{5bd8bac9-fc5c-484a-a6a8-2df4190085c5}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{f222561e-364f-4a3c-a6e0-6d4afa3dcfdf}">
+                <segment orientation="horizontal" length="-9"/>
+                <segment orientation="horizontal" length="-81"/>
+                <segment orientation="vertical" length="-280"/>
+                <segment orientation="horizontal" length="561"/>
+                <segment orientation="horizontal" length="9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{aa025ac7-c89a-41b3-b8cd-338932965a15}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" color2="#000000" bus="" terminal2="{f38d545a-e57c-425c-a965-2f8ecddcf686}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="45">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="46" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{bffe524c-a6af-4b98-bea2-c2180be0672b}">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="0" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{aa025ac7-c89a-41b3-b8cd-338932965a15}" color2="#000000" bus="" terminal2="{6d9afba7-d902-4e07-80d5-ab4d5ecb45d1}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="2" terminal1="{b32e63f1-82a2-43f8-9fe6-7adfd89d5a0a}">
+                <segment orientation="horizontal" length="-9"/>
+                <segment orientation="horizontal" length="-531"/>
+                <segment orientation="vertical" length="100"/>
+                <segment orientation="horizontal" length="51"/>
+                <segment orientation="horizontal" length="9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{2c25f86a-701e-4295-8c7d-326877b45b2b}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{f999686b-8d6b-470f-8df7-1d98d590d1f2}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{2a44298a-d935-481d-9c74-c66d4ab3b759}">
+                <segment orientation="vertical" length="22.3333"/>
+                <segment orientation="vertical" length="57.6667"/>
+                <segment orientation="horizontal" length="-101"/>
+                <segment orientation="vertical" length="50"/>
+                <segment orientation="horizontal" length="-9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{8628b09c-e4cd-40e5-814a-0aee5dadf96e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{30d94835-5ea8-499e-ac44-f6b11688f5fc}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{b31f5a53-d61e-4e0d-ade1-ed090f103606}">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{773d40e4-d601-48b4-907c-f0b8b1c3ea7e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{fde5fb81-89c7-4521-8432-d8f92a9be178}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{af5bfc15-9cb5-476f-b8b7-01ed44a7974b}">
+                <segment orientation="vertical" length="9"/>
+                <segment orientation="vertical" length="91"/>
+                <segment orientation="horizontal" length="-70"/>
+                <segment orientation="vertical" length="29.75"/>
+                <segment orientation="horizontal" length="21"/>
+                <segment orientation="horizontal" length="9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{dedb2655-d4a8-48e2-a443-5532e3f2727e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{c039db5e-6603-4a79-abe6-ea57c86e9079}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{5e66aa12-85fe-4839-9723-acc4c90397ac}">
+                <segment orientation="vertical" length="9"/>
+                <segment orientation="vertical" length="21"/>
+                <segment orientation="horizontal" length="239"/>
+                <segment orientation="vertical" length="96.25"/>
+                <segment orientation="horizontal" length="-9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{773d40e4-d601-48b4-907c-f0b8b1c3ea7e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{b55958b4-a3d2-4fb7-97a1-64c0a8c80ef6}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{b8198659-4876-4c42-b753-c589d533f5a0}">
+                <segment orientation="vertical" length="9"/>
+                <segment orientation="vertical" length="91"/>
+                <segment orientation="horizontal" length="20"/>
+                <segment orientation="vertical" length="29.75"/>
+                <segment orientation="horizontal" length="-11"/>
+                <segment orientation="horizontal" length="-9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{2c25f86a-701e-4295-8c7d-326877b45b2b}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{5c895345-b279-427a-9c64-bb41e8f6b5f5}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{66e8cfc7-086f-45ce-951e-312418f183fe}">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="0" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" style="line-style: dashdotted" conductor_section="" element2="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" color2="#000000" bus="" terminal2="{32468d9e-42f4-4bc3-bd48-03f5663e79d5}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="2" terminal1="47">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="45" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{fd8451e2-c228-4c38-8caf-d1235e757d72}">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{8628b09c-e4cd-40e5-814a-0aee5dadf96e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{49ada496-72aa-4e87-90d0-e80b2a75554d}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{295c0c92-55b2-4680-94eb-e752533c9d24}">
+                <segment orientation="vertical" length="9"/>
+                <segment orientation="vertical" length="71"/>
+                <segment orientation="horizontal" length="140"/>
+                <segment orientation="vertical" length="50"/>
+                <segment orientation="horizontal" length="-16"/>
+                <segment orientation="horizontal" length="-9"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor displaytext="1" formula="" function="" num="" numsize="7" x="0" bicolor="false" conductor_color="" conductor_section="" element2="{dedb2655-d4a8-48e2-a443-5532e3f2727e}" onetextperfolio="0" freezeLabel="false" cable="" vertirotatetext="270" element1="{f6bb0600-06c3-43c8-b309-6a744f93e73d}" color2="#000000" bus="" terminal2="{c8c4f675-445b-4da6-8de0-ef898aef1552}" tension_protocol="" horizontal-alignment="AlignBottom" text_color="#000000" condsize="1" y="0" vertical-alignment="AlignRight" horizrotatetext="0" type="multi" dash-size="1" terminal1="{585e0f8e-7e79-425f-87fc-3bae585cff9f}">
+                <segment orientation="vertical" length="9"/>
+                <segment orientation="vertical" length="41"/>
+                <segment orientation="horizontal" length="181"/>
+                <segment orientation="vertical" length="76.25"/>
+                <segment orientation="horizontal" length="9"/>
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="uk">Імпортовані елементи</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="ja">インバートされた要素</name>
+                <name lang="en">Imported elements</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="pl">Elementy importowane</name>
+            </names>
+            <element name="hps.elmt">
+                <definition width="70" type="element" version="0.90" link_type="simple" hotspot_x="34" hotspot_y="9" height="30">
+                    <uuid uuid="{8b114c4f-23ff-4932-adb0-c3746c3c7a95}"/>
+                    <names>
+                        <name lang="en">HPS</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <line length1="1.5" x2="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" y2="0" end2="none" x1="-30" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-18" y="-5" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" y2="0" end2="none" x1="18" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="7" y="-5" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-3" y2="7" end2="none" x1="0" antialias="false"/>
+                        <line length1="1.5" x2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-2" y2="-6" end2="none" x1="-8" antialias="false"/>
+                        <arc width="20.0526" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9.99737" y="8" angle="90" height="19.8474" antialias="true"/>
+                        <arc width="20.0526" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="8" angle="90" height="19.8474" antialias="true"/>
+                        <line length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="17.9237" y2="18" end2="none" x1="-10" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{d74356a7-d2d4-4e52-a986-85584c15e0d0}" Halignment="AlignLeft" x="-15" keep_visual_rotation="false" y="13" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" z="16" frame="false">
+                            <text>HPS</text>
+                        </dynamic_text>
+                        <terminal name="" type="Generic" uuid="{5c895345-b279-427a-9c64-bb41e8f6b5f5}" x="-30" orientation="w" y="0"/>
+                        <terminal name="" type="Generic" uuid="{f999686b-8d6b-470f-8df7-1d98d590d1f2}" x="30" orientation="e" y="0"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="lps.elmt">
+                <definition width="70" type="element" version="0.90" link_type="simple" hotspot_x="34" hotspot_y="11" height="40">
+                    <uuid uuid="{a9417544-987f-4727-927d-c30326fd29ee}"/>
+                    <names>
+                        <name lang="en">LPS</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <line length1="1.5" x2="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-0.25" y2="-0.25" end2="none" x1="-30" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-18" y="-5.25" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-0.25" y2="-0.25" end2="none" x1="18" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="7" y="-5.25" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="4" y2="11" end2="none" x1="0" antialias="false"/>
+                        <line length1="1.5" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="2" y2="6" end2="none" x1="-8" antialias="false"/>
+                        <arc width="20.0526" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9.99737" y="11.75" angle="90" height="19.8474" antialias="true"/>
+                        <arc width="20.0526" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="11.75" angle="90" height="19.8474" antialias="true"/>
+                        <line length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="21.9237" y2="22" end2="none" x1="-10" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{d74356a7-d2d4-4e52-a986-85584c15e0d0}" Halignment="AlignLeft" x="-14" keep_visual_rotation="false" y="18" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" z="16" frame="false">
+                            <text>LPS</text>
+                        </dynamic_text>
+                        <terminal name="" type="Generic" uuid="{fde5fb81-89c7-4521-8432-d8f92a9be178}" x="-30" orientation="w" y="-0.25"/>
+                        <terminal name="" type="Generic" uuid="{b55958b4-a3d2-4fb7-97a1-64c0a8c80ef6}" x="30" orientation="e" y="-0.25"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="freeze_stat.elmt">
+                <definition width="60" type="element" version="0.90" link_type="simple" hotspot_x="29" hotspot_y="9" height="30">
+                    <uuid uuid="{d06d843e-af64-46d8-858c-0f4765103ad5}"/>
+                    <names>
+                        <name lang="en">FreezeStat</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" y="-5" antialias="false" diameter="10"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="10" y="-5" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="6" length2="1.5" y1="3" end2="none" x1="-11" antialias="false"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="8" length2="1.5" y1="5" end2="none" x1="0" antialias="false"/>
+                        <line length1="1.5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="8" length2="1.5" y1="8" end2="none" x1="0" antialias="false"/>
+                        <line length1="1.5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="10" length2="1.5" y1="8" end2="none" x1="-5" antialias="false"/>
+                        <line length1="1.5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="11" length2="1.5" y1="11" end2="none" x1="-5" antialias="false"/>
+                        <line length1="1.5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="13" length2="1.5" y1="11" end2="none" x1="5" antialias="false"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="14" length2="1.5" y1="14" end2="none" x1="5" antialias="false"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="17" length2="1.5" y1="14" end2="none" x1="0" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-14" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{d842ac0b-2543-473a-84e6-75394425f1a1}" text_width="-1" y="14" z="13" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>FRZ</text>
+                        </dynamic_text>
+                        <terminal type="Generic" name="" x="25" uuid="{49ada496-72aa-4e87-90d0-e80b2a75554d}" orientation="e" y="0"/>
+                        <terminal type="Generic" name="" x="-25" uuid="{30d94835-5ea8-499e-ac44-f6b11688f5fc}" orientation="w" y="0"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="condensate_switch.elmt">
+                <definition width="70" type="element" version="0.90" link_type="simple" hotspot_x="34" hotspot_y="22" height="40">
+                    <uuid uuid="{eef0eab4-f7e0-471c-b8c7-89587b3e8d2e}"/>
+                    <names>
+                        <name lang="en">Condensate Switch</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <line length1="1.5" x2="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-13.75" length2="1.5" y1="-13.75" end2="none" x1="-30" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-18" y="-18.75" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-13.75" length2="1.5" y1="-13.75" end2="none" x1="18" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="7" y="-18.75" antialias="false" diameter="10"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-6.75" length2="1.5" y1="-16.75" end2="none" x1="0" antialias="false"/>
+                        <line length1="1.5" x2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-19.75" length2="1.5" y1="-15.75" end2="none" x1="-8" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-30" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{d74356a7-d2d4-4e52-a986-85584c15e0d0}" text_width="-1" y="10" z="16" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>COND-SW</text>
+                        </dynamic_text>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-5" antialias="false" diameter="20"/>
+                        <line length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-7" length2="1.5" y1="-5" end2="none" x1="0" antialias="false"/>
+                        <terminal type="Generic" name="" x="30" uuid="{c039db5e-6603-4a79-abe6-ea57c86e9079}" orientation="e" y="-13.75"/>
+                        <terminal type="Generic" name="" x="-30" uuid="{c8c4f675-445b-4da6-8de0-ef898aef1552}" orientation="w" y="-13.75"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="gas_valve.elmt">
+                <definition width="90" type="element" version="0.90" link_type="simple" hotspot_x="45" hotspot_y="35" height="70">
+                    <uuid uuid="{e803a9ee-28e1-4f07-9b91-7c64019a08ec}"/>
+                    <names>
+                        <name lang="en">Gas Valve</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <rect width="80" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" rx="0" y="-30" height="60" antialias="false" ry="0"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{35dfcf63-5d25-450a-babf-b8d5a265b173}" Halignment="AlignLeft" keep_visual_rotation="false" x="-35" y="-12" text_width="-1" z="2" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>GAS VALVE</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{ef1227ce-afdf-4656-890f-e0aed002c657}" Halignment="AlignLeft" keep_visual_rotation="false" x="-37" y="9" text_width="-1" z="4" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>PV</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{ef1227ce-afdf-4656-890f-e0aed002c657}" Halignment="AlignLeft" keep_visual_rotation="false" x="-22" y="9" text_width="-1" z="4" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>PV/MV</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{ef1227ce-afdf-4656-890f-e0aed002c657}" Halignment="AlignLeft" keep_visual_rotation="false" x="3" y="9" text_width="-1" z="4" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>MV</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{ef1227ce-afdf-4656-890f-e0aed002c657}" Halignment="AlignLeft" keep_visual_rotation="false" x="-32" y="-27" text_width="-1" z="4" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>GND</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" uuid="{ef1227ce-afdf-4656-890f-e0aed002c657}" Halignment="AlignLeft" keep_visual_rotation="false" x="14" y="-23" text_width="-1" z="4" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>HI</text>
+                        </dynamic_text>
+                        <terminal type="Generic" name="" uuid="{383eecae-95a8-45ff-aa4e-f05a0be617aa}" x="-30" orientation="s" y="24"/>
+                        <terminal type="Generic" name="" uuid="{1967e1c4-0012-4732-9a57-a7ee2f96e69e}" x="10" orientation="s" y="24"/>
+                        <terminal type="Generic" name="" uuid="{491277e0-584c-4b67-8ab7-008cc40da394}" x="-33" orientation="w" y="-20"/>
+                        <terminal type="Generic" name="" uuid="{cbe4e98d-4120-4565-aa8c-07970f687318}" x="-10" orientation="s" y="24"/>
+                        <terminal type="Generic" name="" uuid="{ab0d5c19-4205-427a-a889-c8d5c91d018b}" x="20" orientation="n" y="-24"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="alc_control1.elmt">
+                <definition width="260" type="element" version="0.90" link_type="simple" hotspot_x="94" hotspot_y="135" height="270">
+                    <uuid uuid="{ec5cae6c-503f-44a1-888b-21aba3a174c7}"/>
+                    <names>
+                        <name lang="en">alc_zn551</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <text text="Inputs" rotation="0" x="-82" y="-108" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO5" rotation="0" x="123" y="79" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO3" rotation="0" x="123" y="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO4" rotation="0" x="123" y="48" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="40" angle="180" height="30" antialias="true"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="10" angle="180" height="30" antialias="true"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="49" diameter="2" antialias="false"/>
+                        <text text="DO2" rotation="0" x="123" y="-12" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="79" diameter="2" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="50" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="19" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="69" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-41" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="39" diameter="2" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="70" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <rect width="82" style="line-style:normal;line-weight:normal;filling:none;color:black" x="80" y="-130" rx="0" height="260" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="40" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="50" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-11" diameter="2" antialias="false"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="-20" angle="180" height="30" antialias="true"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-10" y2="-20" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="20" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-21" diameter="2" antialias="false"/>
+                        <arc width="60" start="90.625" style="line-style:normal;line-weight:normal;filling:none;color:black" x="100" y="-100" angle="178.25" height="50" antialias="true"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="9" diameter="2" antialias="false"/>
+                        <text text="Automated Logic" rotation="0" x="-53" y="-11" font="Sans Serif,11,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO1" rotation="0" x="123" y="-44" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-50" y2="-50" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="140" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" y2="-20" length2="1.5" end2="none" x1="120" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="10" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <rect width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="120" y="-115" rx="5" height="45" ry="5" antialias="false"/>
+                        <text text="24V" rotation="0" x="130" y="-90" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-58" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-2</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-14" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="102" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>AO1</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="32" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-5</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-88" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-1</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="2" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-4</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-28" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-3</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="270" x="82" uuid="{da7b1f52-ca64-4313-a5fc-316d768a22f3}" keep_visual_rotation="false" Halignment="AlignLeft" y="34" text_width="-1" z="44" font="Sans Serif,6,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>Digital Outputs</text>
+                        </dynamic_text>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="-50" angle="180" height="30" antialias="true"/>
+                        <line length1="1.5" x2="140" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" y2="-10" length2="1.5" end2="none" x1="145" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-40" y2="-50" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="20" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-51" diameter="2" antialias="false"/>
+                        <rect width="170" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-90" y="-130" rx="0" height="260" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="80" length2="1.5" end2="none" x1="80" antialias="false"/>
+                        <text text="Analog Output" rotation="0" x="-30" y="95" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <line length1="1.5" x2="-63" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="29" antialias="false"/>
+                        <line length1="1.5" x2="-63" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="79" y2="-81" length2="1.5" end2="none" x1="-63" antialias="false"/>
+                        <line length1="1.5" x2="79" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="70" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-20" uuid="{0f3e82e6-5437-44cc-baf5-9b6adf8a603f}" keep_visual_rotation="false" Halignment="AlignLeft" y="-10" text_width="-1" z="73" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>ZN551</text>
+                        </dynamic_text>
+                        <line length1="1.5" x2="139" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-100" y2="-100" length2="1.5" end2="none" x1="130" antialias="false"/>
+                        <rect width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-90" y="-120" rx="0" height="20" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="27" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="70" antialias="false"/>
+                        <rect width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" y="85" rx="0" height="15" ry="0" antialias="false"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{244053dc-0318-4bd4-9e26-e903e50fc396}" orientation="w" y="-60"/>
+                        <terminal name="" type="Generic" x="150" uuid="{9c797511-14b9-4d99-afe4-3f35a838103b}" orientation="e" y="50"/>
+                        <terminal name="" type="Generic" x="150" uuid="{5ad0f37a-4aea-4237-9b89-63f8a2ace17e}" orientation="e" y="80"/>
+                        <terminal name="" type="Generic" x="140" uuid="{ce50e399-a40f-45b6-9bec-17d1ded4b96e}" orientation="w" y="40"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{fb061c41-4b8b-4195-80e6-16fbdc390887}" orientation="w" y="0"/>
+                        <terminal name="" type="Generic" x="140" uuid="{fceb9f71-2d76-4d94-9e16-a1fd9e595a61}" orientation="e" y="-80"/>
+                        <terminal name="" type="Generic" x="140" uuid="{09bf682f-7d9e-469a-9475-18124f609b26}" orientation="w" y="-20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{9911c4b8-a3fc-46ac-a8f3-78d71c755a5e}" orientation="w" y="70"/>
+                        <terminal name="" type="Generic" x="0" uuid="{c821838c-6723-4738-83b6-ed4f7c088272}" orientation="s" y="120"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{ae81f81e-0485-4d43-8b11-4e40f930645b}" orientation="w" y="30"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{f875fd6b-ab4c-4123-a537-a6ae01fe46c4}" orientation="w" y="-30"/>
+                        <terminal name="" type="Generic" x="150" uuid="{caf593d2-a40e-416f-acd9-941612b4f3b0}" orientation="e" y="20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{b23cda6e-eba7-4fa7-8756-fd4a3456b71b}" orientation="w" y="10"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{5bd8bac9-fc5c-484a-a6a8-2df4190085c5}" orientation="w" y="-90"/>
+                        <terminal name="" type="Generic" x="150" uuid="{12b40983-791a-4ade-8c16-8dcdbaa8ddab}" orientation="e" y="20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{0751475b-d460-46d7-9d20-cb06ca12da40}" orientation="w" y="-20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{f38d545a-e57c-425c-a965-2f8ecddcf686}" orientation="e" y="-100"/>
+                        <terminal name="" type="Generic" x="140" uuid="{a5dfee72-e926-4cf9-ad0a-98f060cf4fa6}" orientation="w" y="70"/>
+                        <terminal name="" type="Generic" x="150" uuid="{f8c3b2c6-a4de-4d34-9c12-c32eab231925}" orientation="e" y="-40"/>
+                        <terminal name="" type="Generic" x="140" uuid="{7ec112f2-f1d6-4fa3-940c-1214a107b0a1}" orientation="w" y="10"/>
+                        <terminal name="" type="Generic" x="150" uuid="{a0d7cbb9-fc0b-4b53-9159-42ae493a9b94}" orientation="e" y="50"/>
+                        <terminal name="" type="Generic" x="150" uuid="{950ca55d-781f-4eb0-9205-4d19a3d13236}" orientation="e" y="-10"/>
+                        <terminal name="" type="Generic" x="140" uuid="{bfd8d093-d342-4a28-90f9-b4c399c3e1cf}" orientation="w" y="-50"/>
+                        <terminal name="" type="Generic" x="140" uuid="{6c56f6b9-84de-43b9-b422-81789397e909}" orientation="w" y="40"/>
+                        <terminal name="" type="Generic" x="150" uuid="{5ab31a52-d439-49ee-b9f8-62638c8e7758}" orientation="e" y="-10"/>
+                        <terminal name="" type="Generic" x="-10" uuid="{fb69b3bb-57d3-444b-921b-6f81c194bd99}" orientation="s" y="120"/>
+                    </description>
+                </definition>
+            </element>
+            <category name="10_electric">
+                <names>
+                    <name lang="de">Elektrik</name>
+                    <name lang="el">Ηλεκτρικά</name>
+                    <name lang="pl">Elektrotechnika</name>
+                    <name lang="ru">Электротехника</name>
+                    <name lang="nl">Elektrotechniek</name>
+                    <name lang="en">Electric</name>
+                    <name lang="fr">Electrique</name>
+                    <name lang="es">Eléctrica</name>
+                    <name lang="da">Elektrisk</name>
+                    <name lang="it">Elettrica</name>
+                    <name lang="cs">Elektrotechnika</name>
+                    <name lang="ja">電気</name>
+                </names>
+                <category name="10_allpole">
+                    <names>
+                        <name lang="el">Πολυγραμμικό</name>
+                        <name lang="de">Allpolig</name>
+                        <name lang="hu">Többvonalas szimbólumok</name>
+                        <name lang="pl">Schematy wieloliniowe</name>
+                        <name lang="ru">Многополюсные</name>
+                        <name lang="en">All-pole</name>
+                        <name lang="nl">Veel polig</name>
+                        <name lang="fr">Multifilaire</name>
+                        <name lang="es">Multifilar</name>
+                        <name lang="da">Flere ledere</name>
+                        <name lang="cs">Vícežilový</name>
+                        <name lang="it">Multifilare</name>
+                        <name lang="ja">複線</name>
+                    </names>
+                    <category name="330_transformers_power_supplies">
+                        <names>
+                            <name lang="de">Transformatoren und Versorgungen</name>
+                            <name lang="el">Μετασχηματιστές και παροχές ισχύος</name>
+                            <name lang="ru">Трансформаторы и источники питания</name>
+                            <name lang="pl">Transformatory i zasilacze</name>
+                            <name lang="en">Transformers and power supplies</name>
+                            <name lang="nl">Transformatoren en Voedingen</name>
+                            <name lang="fr">Transformateurs et alimentations</name>
+                            <name lang="es">Transformadores y fuentes de potencia</name>
+                            <name lang="da">Transformer og strømforsyninger</name>
+                            <name lang="it">Trasformatori e alimentatori</name>
+                            <name lang="cs">Trasformátory a proudové zdroje</name>
+                            <name lang="ja">変圧器と電源</name>
+                        </names>
+                        <category name="10_transformers">
+                            <names>
+                                <name lang="de">Transformatoren</name>
+                                <name lang="el">Μετασχηματιστές</name>
+                                <name lang="ru">Трансформаторы</name>
+                                <name lang="pl">Transformatory</name>
+                                <name lang="en">Transformers</name>
+                                <name lang="nl">Transformatoren</name>
+                                <name lang="fr">Transformateurs</name>
+                                <name lang="es">Transformadores</name>
+                                <name lang="ar">مُحوّلات</name>
+                                <name lang="da">Transformer</name>
+                                <name lang="pt">Transformadores</name>
+                                <name lang="cs">Transformátory</name>
+                                <name lang="it">Trasformatori</name>
+                            </names>
+                            <element name="transformator_ekr_2.elmt">
+                                <definition width="50" type="element" version="0.3" hotspot_x="18" hotspot_y="25" height="50">
+                                    <uuid uuid="{5F169AA6-5D2B-47BF-8890-2F7B5D70E3AB}"/>
+                                    <names>
+                                        <name lang="fr">Transformateur monophasé à deux enroulements avec écran</name>
+                                        <name lang="it">Trasformatore monofase con schermo</name>
+                                        <name lang="en">Transformer with screen</name>
+                                        <name lang="es">Transformador con pantalla</name>
+                                        <name lang="de">Transformator einphasig mit Abschirmung</name>
+                                        <name lang="pl">Transformator (forma 2)</name>
+                                        <name lang="cs">Jednofázový transformátor se stíněním</name>
+                                        <name lang="nl">Transformator met scherm</name>
+                                        <name lang="el">Μετασχηματιστής με θωράκιση</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <arc width="5" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="2" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="-7.5" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" y="-7.5" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="-7.5" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-7.5" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="2" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" y="2" angle="-180" height="5" antialias="true"/>
+                                        <arc width="5" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="2" angle="-180" height="5" antialias="true"/>
+                                        <line length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-10" end1="none" length2="1.5" y1="0" y2="0" end2="none" x1="10" antialias="false"/>
+                                        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end1="none" length2="1.5" y1="-5" y2="-20" end2="none" x1="-10" antialias="false"/>
+                                        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" end1="none" length2="1.5" y1="-5" y2="-20" end2="none" x1="10" antialias="false"/>
+                                        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end1="none" length2="1.5" y1="5" y2="20" end2="none" x1="-10" antialias="false"/>
+                                        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" end1="none" length2="1.5" y1="5" y2="20" end2="none" x1="10" antialias="false"/>
+                                        <input tagg="label" rotate="true" text="_" x="12" size="9" y="0"/>
+                                        <terminal x="-10" orientation="n" y="-20"/>
+                                        <terminal x="10" orientation="n" y="-20"/>
+                                        <terminal x="-10" orientation="s" y="20"/>
+                                        <terminal x="10" orientation="s" y="20"/>
+                                        <terminal x="-10" orientation="w" y="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="110_network_supplies">
+                        <names>
+                            <name lang="de">Netzquellen</name>
+                            <name lang="el">Παροχές δικτύου</name>
+                            <name lang="hu">Hálózati források</name>
+                            <name lang="ru">Подвод питания, сеть</name>
+                            <name lang="pl">Sieć elektroenergetyczna</name>
+                            <name lang="en">Network sources</name>
+                            <name lang="nl">Netvoedingen</name>
+                            <name lang="fr">Sources réseau</name>
+                            <name lang="es">Fuentes de red</name>
+                            <name lang="da">Netværkskilder</name>
+                            <name lang="it">Alimentazione da rete</name>
+                            <name lang="cs">Napájení</name>
+                            <name lang="ja">電源網</name>
+                        </names>
+                        <element name="terre.elmt">
+                            <definition width="20" type="element" version="0.80" link_type="terminal" hotspot_x="10" hotspot_y="19" height="30">
+                                <uuid uuid="{e4e753a8-9fde-4e8e-9256-0cf99d67e3de}"/>
+                                <names>
+                                    <name lang="pt">Terra</name>
+                                    <name lang="cs">Uzemnění</name>
+                                    <name lang="it">Terra</name>
+                                    <name lang="el">Γείωση</name>
+                                    <name lang="nl">Aarde</name>
+                                    <name lang="ru">Земля</name>
+                                    <name lang="de">Erde</name>
+                                    <name lang="en">Ground</name>
+                                    <name lang="pl">Uziemienie</name>
+                                    <name lang="es">Tierra</name>
+                                    <name lang="ar">تأريض</name>
+                                    <name lang="fr">Terre</name>
+                                    <name lang="hu">Földelő</name>
+                                </names>
+                                <elementInformations>
+                                    <elementInformation name="comment" show="1"/>
+                                    <elementInformation name="machine_manufacturer_reference" show="1"/>
+                                    <elementInformation name="manufacturer_reference" show="1"/>
+                                    <elementInformation name="description" show="1"/>
+                                    <elementInformation name="manufacturer" show="1"/>
+                                    <elementInformation name="designation" show="1"/>
+                                    <elementInformation name="quantity" show="1"/>
+                                    <elementInformation name="unity" show="1"/>
+                                    <elementInformation name="supplier" show="1"/>
+                                    <elementInformation name="plant" show="1"/>
+                                    <elementInformation name="label" show="1"/>
+                                </elementInformations>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <dynamic_text Valignment="AlignTop" rotation="0" uuid="{0af57a27-1887-4576-8b51-200ca996e582}" Halignment="AlignLeft" x="2" y="-22.5" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" frame="false">
+                                        <text/>
+                                        <info_name>label</info_name>
+                                    </dynamic_text>
+                                    <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" end1="none" y1="4" y2="4" length2="1.5" end2="none" x1="-3" antialias="false"/>
+                                    <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5" end1="none" y1="2" y2="2" length2="1.5" end2="none" x1="-5" antialias="false"/>
+                                    <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="7" end1="none" y1="0" y2="0" length2="1.5" end2="none" x1="-7" antialias="false"/>
+                                    <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" y1="-10" y2="0" length2="1.5" end2="none" x1="0" antialias="false"/>
+                                    <terminal x="0" orientation="n" y="-11"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+            </category>
+            <element name="analog_safety.elmt">
+                <definition width="310" type="element" version="0.90" link_type="simple" hotspot_x="145" hotspot_y="105" height="200">
+                    <uuid uuid="{930227dc-e47c-4cc7-9246-ff4d39d5019d}"/>
+                    <names>
+                        <name lang="en">Analog Safety Converter 2.0</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <rect width="300" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-140" y="-100" rx="0" height="190" ry="0" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="120" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="-40" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>COM</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-120" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="-20" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>AO</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-70" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S1</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="10" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S3</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="30" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S3</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="60" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S4</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-90" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S1</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-20" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S2</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-40" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S2</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-80" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="-70" text_width="-1" z="2" font="Sans Serif,10,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>Analog Safety Converter 2.0</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="80" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="50" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>S4</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-120" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="-40" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>GND</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="110" uuid="{a49a7a8b-0df0-49e3-83b1-d56b629cd772}" keep_visual_rotation="false" Halignment="AlignLeft" y="-60" text_width="-1" z="2" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>24VAC</text>
+                        </dynamic_text>
+                        <rect width="178.078" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-84.4519" y="-70" rx="0" height="25" ry="0" antialias="false"/>
+                        <rect width="50" style="line-style:normal;line-weight:normal;filling:none;color:black" x="110" y="-60" rx="0" height="40" ry="0" antialias="false"/>
+                        <rect width="50" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-140" y="-40" rx="0" height="40" ry="0" antialias="false"/>
+                        <rect width="210" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-100" y="50" rx="0" height="40" ry="0" antialias="false"/>
+                        <text text="GND (Optional)" rotation="0" x="94" y="-74" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <terminal name="" type="Generic" x="-130" uuid="{f222561e-364f-4a3c-a6e0-6d4afa3dcfdf}" orientation="w" y="-10"/>
+                        <terminal name="" type="Generic" x="-10" uuid="{b8198659-4876-4c42-b753-c589d533f5a0}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="-60" uuid="{2a44298a-d935-481d-9c74-c66d4ab3b759}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="90" uuid="{5e66aa12-85fe-4839-9723-acc4c90397ac}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="-130" uuid="{6d9afba7-d902-4e07-80d5-ab4d5ecb45d1}" orientation="w" y="-30"/>
+                        <terminal name="" type="Generic" x="20" uuid="{b31f5a53-d61e-4e0d-ade1-ed090f103606}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{66e8cfc7-086f-45ce-951e-312418f183fe}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="-30" uuid="{af5bfc15-9cb5-476f-b8b7-01ed44a7974b}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="150" uuid="{bffe524c-a6af-4b98-bea2-c2180be0672b}" orientation="e" y="-30"/>
+                        <terminal name="" type="Generic" x="70" uuid="{585e0f8e-7e79-425f-87fc-3bae585cff9f}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="40" uuid="{295c0c92-55b2-4680-94eb-e752533c9d24}" orientation="s" y="80"/>
+                        <terminal name="" type="Generic" x="150" uuid="{fd8451e2-c228-4c38-8caf-d1235e757d72}" orientation="e" y="-50"/>
+                        <terminal name="" type="Generic" x="116" uuid="{32468d9e-42f4-4bc3-bd48-03f5663e79d5}" orientation="n" y="-94"/>
+                    </description>
+                </definition>
+            </element>
+            <element name="alc_control.elmt">
+                <definition width="260" type="element" version="0.90" link_type="simple" hotspot_x="94" hotspot_y="135" height="270">
+                    <uuid uuid="{e81dd471-cc95-4a19-b5f9-2cf004a57d77}"/>
+                    <names>
+                        <name lang="en">alc_zn551</name>
+                    </names>
+                    <elementInformations/>
+                    <informations/>
+                    <description>
+                        <text text="Inputs" rotation="0" x="-82" y="-108" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO5" rotation="0" x="123" y="79" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO3" rotation="0" x="123" y="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO4" rotation="0" x="123" y="48" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="40" angle="180" height="30" antialias="true"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="10" angle="180" height="30" antialias="true"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="49" diameter="2" antialias="false"/>
+                        <text text="DO2" rotation="0" x="123" y="-12" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="79" diameter="2" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="50" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="19" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="69" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-41" diameter="2" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="39" diameter="2" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="70" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <rect width="82" style="line-style:normal;line-weight:normal;filling:none;color:black" x="80" y="-130" rx="0" height="260" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="40" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="70" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="50" y2="40" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-11" diameter="2" antialias="false"/>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="-20" angle="180" height="30" antialias="true"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-10" y2="-20" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="20" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-21" diameter="2" antialias="false"/>
+                        <arc width="60" start="90.625" style="line-style:normal;line-weight:normal;filling:none;color:black" x="100" y="-100" angle="178.25" height="50" antialias="true"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="9" diameter="2" antialias="false"/>
+                        <text text="Automated Logic" rotation="0" x="-53" y="-11" font="Sans Serif,11,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <text text="DO1" rotation="0" x="123" y="-44" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-50" y2="-50" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <line length1="1.5" x2="140" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" y2="-20" length2="1.5" end2="none" x1="120" antialias="false"/>
+                        <line length1="1.5" x2="120" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="10" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <rect width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="120" y="-115" rx="5" height="45" ry="5" antialias="false"/>
+                        <text text="24V" rotation="0" x="130" y="-90" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-14" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="102" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>AO1</text>
+                        </dynamic_text>
+                        <arc width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="101" y="-50" angle="180" height="30" antialias="true"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-58" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-2</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-28" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-3</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="-88" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-1</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="2" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-4</text>
+                        </dynamic_text>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-86" uuid="{b741ea4e-c4dc-4325-9706-d7fbd8be42ad}" keep_visual_rotation="false" Halignment="AlignLeft" y="32" text_width="-1" z="42" font="Sans Serif,4,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>IN-5</text>
+                        </dynamic_text>
+                        <line length1="1.5" x2="140" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" y2="-10" length2="1.5" end2="none" x1="145" antialias="false"/>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-40" y2="-50" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="270" x="82" uuid="{da7b1f52-ca64-4313-a5fc-316d768a22f3}" keep_visual_rotation="false" Halignment="AlignLeft" y="34" text_width="-1" z="44" font="Sans Serif,6,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>Digital Outputs</text>
+                        </dynamic_text>
+                        <line length1="1.5" x2="145" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="20" y2="10" length2="1.5" end2="none" x1="140" antialias="false"/>
+                        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="144" y="-51" diameter="2" antialias="false"/>
+                        <rect width="170" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-90" y="-130" rx="0" height="260" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="80" y2="80" length2="1.5" end2="none" x1="80" antialias="false"/>
+                        <text text="Analog Output" rotation="0" x="-30" y="95" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <line length1="1.5" x2="-63" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="29" antialias="false"/>
+                        <line length1="1.5" x2="-63" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="79" y2="-81" length2="1.5" end2="none" x1="-63" antialias="false"/>
+                        <line length1="1.5" x2="79" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="70" antialias="false"/>
+                        <line length1="1.5" x2="139" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-100" y2="-100" length2="1.5" end2="none" x1="130" antialias="false"/>
+                        <rect width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-90" y="-120" rx="0" height="20" ry="0" antialias="false"/>
+                        <line length1="1.5" x2="27" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-81" y2="-81" length2="1.5" end2="none" x1="70" antialias="false"/>
+                        <rect width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" y="85" rx="0" height="15" ry="0" antialias="false"/>
+                        <dynamic_text Valignment="AlignTop" rotation="0" x="-20" uuid="{0f3e82e6-5437-44cc-baf5-9b6adf8a603f}" keep_visual_rotation="false" Halignment="AlignLeft" y="-10" text_width="-1" z="73" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" frame="false">
+                            <text>ZN551</text>
+                        </dynamic_text>
+                        <text text="Input GND" rotation="0" x="-89" y="64" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+                        <line length1="1.5" x2="-63" style="line-style:dashed;line-weight:normal;filling:none;color:black" end1="none" y1="56" y2="56" length2="1.5" end2="none" x1="-90" antialias="false"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{b32e63f1-82a2-43f8-9fe6-7adfd89d5a0a}" orientation="w" y="70"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{5bd8bac9-fc5c-484a-a6a8-2df4190085c5}" orientation="w" y="-90"/>
+                        <terminal name="" type="Generic" x="150" uuid="{12b40983-791a-4ade-8c16-8dcdbaa8ddab}" orientation="e" y="20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{9911c4b8-a3fc-46ac-a8f3-78d71c755a5e}" orientation="w" y="70"/>
+                        <terminal name="" type="Generic" x="0" uuid="{c821838c-6723-4738-83b6-ed4f7c088272}" orientation="s" y="120"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{f875fd6b-ab4c-4123-a537-a6ae01fe46c4}" orientation="w" y="-30"/>
+                        <terminal name="" type="Generic" x="140" uuid="{b23cda6e-eba7-4fa7-8756-fd4a3456b71b}" orientation="w" y="10"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{244053dc-0318-4bd4-9e26-e903e50fc396}" orientation="w" y="-60"/>
+                        <terminal name="" type="Generic" x="150" uuid="{9c797511-14b9-4d99-afe4-3f35a838103b}" orientation="e" y="50"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{fb061c41-4b8b-4195-80e6-16fbdc390887}" orientation="w" y="0"/>
+                        <terminal name="" type="Generic" x="-80" uuid="{ae81f81e-0485-4d43-8b11-4e40f930645b}" orientation="w" y="30"/>
+                        <terminal name="" type="Generic" x="150" uuid="{caf593d2-a40e-416f-acd9-941612b4f3b0}" orientation="e" y="20"/>
+                        <terminal name="" type="Generic" x="140" uuid="{fceb9f71-2d76-4d94-9e16-a1fd9e595a61}" orientation="e" y="-80"/>
+                        <terminal name="" type="Generic" x="140" uuid="{ce50e399-a40f-45b6-9bec-17d1ded4b96e}" orientation="w" y="40"/>
+                        <terminal name="" type="Generic" x="140" uuid="{09bf682f-7d9e-469a-9475-18124f609b26}" orientation="w" y="-20"/>
+                        <terminal name="" type="Generic" x="150" uuid="{5ad0f37a-4aea-4237-9b89-63f8a2ace17e}" orientation="e" y="80"/>
+                        <terminal name="" type="Generic" x="140" uuid="{bfd8d093-d342-4a28-90f9-b4c399c3e1cf}" orientation="w" y="-50"/>
+                        <terminal name="" type="Generic" x="140" uuid="{6c56f6b9-84de-43b9-b422-81789397e909}" orientation="w" y="40"/>
+                        <terminal name="" type="Generic" x="150" uuid="{950ca55d-781f-4eb0-9205-4d19a3d13236}" orientation="e" y="-10"/>
+                        <terminal name="" type="Generic" x="150" uuid="{f8c3b2c6-a4de-4d34-9c12-c32eab231925}" orientation="e" y="-40"/>
+                        <terminal name="" type="Generic" x="140" uuid="{0751475b-d460-46d7-9d20-cb06ca12da40}" orientation="w" y="-20"/>
+                        <terminal name="" type="Generic" x="150" uuid="{5ab31a52-d439-49ee-b9f8-62638c8e7758}" orientation="e" y="-10"/>
+                        <terminal name="" type="Generic" x="140" uuid="{f38d545a-e57c-425c-a965-2f8ecddcf686}" orientation="e" y="-100"/>
+                        <terminal name="" type="Generic" x="150" uuid="{a0d7cbb9-fc0b-4b53-9159-42ae493a9b94}" orientation="e" y="50"/>
+                        <terminal name="" type="Generic" x="140" uuid="{a5dfee72-e926-4cf9-ad0a-98f060cf4fa6}" orientation="w" y="70"/>
+                        <terminal name="" type="Generic" x="-10" uuid="{fb69b3bb-57d3-444b-921b-6f81c194bd99}" orientation="s" y="120"/>
+                        <terminal name="" type="Generic" x="140" uuid="{7ec112f2-f1d6-4fa3-940c-1214a107b0a1}" orientation="w" y="10"/>
+                    </description>
+                </definition>
+            </element>
+        </category>
+    </collection>
+</project>
